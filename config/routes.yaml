@@ -6,3 +6,7 @@ controllers:
 
 api_login_check:
     path: /api/login_check
+
+fetch_emails:
+    path: /fetch-sms
+    controller: App\Controller\SmsController::fetch_sms
